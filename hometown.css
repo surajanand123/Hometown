@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.parallax {
+    height: 120vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style each parallax section */
+#place1 {
+    background-image: url('patna.jpeg');
+}
+#place2 {
+    background-image: url('mgs.jpeg');
+}
+#place3 {
+    background-image: url('tsps.jpeg');
+}
+#place4 {
+    background-image: url('pm.jpeg');
+}
+#place5{
+    background-image: url('km.jpeg');
+}
+#place6 {
+    background-image: url('gog.jpeg');
+}
+#place7 {
+    background-image: url('ak - Copy.jpeg');
+}
+#place8 {
+    background-image: url('pp - Copy.jpeg');
+}
+#place9 {
+    background-image: url('pkh - Copy.jpeg');
+}
+#place10 {
+    background-image: url('pz - Copy.jpeg');
+}
+/* Define similar styles for other places */
